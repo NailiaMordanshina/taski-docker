@@ -202,7 +202,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: deploy
     steps:
-      - name: Send message
+      - name: Send message1
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
