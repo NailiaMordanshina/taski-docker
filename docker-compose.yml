@@ -45,7 +45,7 @@ services:
     # Сбилдить и запустить образ,
     # описанный в Dockerfile в папке gateway
 #    build: ./gateway/
-    build: ./nginx/
+    build: ./gateway/
     env_file: .env
     # Ключ ports устанавливает
     # перенаправление всех запросов с порта 8000 хоста
